@@ -85,7 +85,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.91
+  m_Height: 1.6
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -105,10 +105,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_charControler: {fileID: 4348581066731614786}
-  m_movementSpeed: 12
+  m_movementSpeed: 6
   m_runSpeed: 1.5
   m_gravity: -9.81
-  m_jumpHeight: 3
+  m_jumpHeight: 1.5
   m_groundCheckPoint: {fileID: 4348581066535622649}
   m_groundDistance: 0.4
   m_groundMask:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4348581066731614794}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10206e037e5c1984790a50996c3188c3, type: 3}
   m_Name: 
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4348581066731614794}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a99f98b0a7d2cdd4eb380fdf567b5fe0, type: 3}
   m_Name: 
@@ -653,7 +653,7 @@ AudioSource:
   m_GameObject: {fileID: 6947125817981470069}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -5436156088444451611, guid: 7ce49a3c14bed854c8f8429a7718c986, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -864,7 +864,7 @@ AudioSource:
   m_GameObject: {fileID: 9047014156462154895}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -3542377843194320467, guid: 7ce49a3c14bed854c8f8429a7718c986, type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.465
