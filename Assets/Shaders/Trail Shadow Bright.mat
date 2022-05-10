@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Trail Shadow
+  m_Name: Trail Shadow Bright
   m_Shader: {fileID: -6465566751694194690, guid: 70a846ee79e12764cad11f969e97a2de, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -38,8 +38,8 @@ Material:
     m_Floats:
     - Vector1_c00ce53fb9304acb9f1703e2750f3f02: 35
     m_Colors:
-    - Color_8256f002cd524062bd5a6d1c6f8feb72: {r: 0.08699717, g: 0.1214036, b: 0.8018868, a: 0}
-    - Color_ac452055bd6843f1a5ff8f51f52219e9: {r: 0.8773585, g: 0.08690815, b: 0.08690815, a: 0}
+    - Color_8256f002cd524062bd5a6d1c6f8feb72: {r: 1, g: 1, b: 1, a: 0}
+    - Color_ac452055bd6843f1a5ff8f51f52219e9: {r: 0.972549, g: 0.2901961, b: 0.105882354, a: 0}
     - Vector2_04dbf6ddd36c4062818647f29e9c35e4: {r: -0.4, g: 0, b: 0, a: 0}
     - Vector2_aef0be0ea2b747ab8a3e7eaafb2e6fc7: {r: -0.5, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
