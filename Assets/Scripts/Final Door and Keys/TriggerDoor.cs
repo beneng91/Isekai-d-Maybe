@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerButton : MonoBehaviour
+public class TriggerDoor : MonoBehaviour
 {
-    public GameObject Button;
+    public GameObject Door;
     public bool Triggered;
 
     // Start is called before the first frame update
@@ -14,14 +14,22 @@ public class TriggerButton : MonoBehaviour
     }
 
     // Update is called once per frame
+    void Update()
+    {
+        
+    }
 
 
-    public void OnTriggerEnter(Collider other)
+
+
+    private void OnTriggerEnter(Collider other)
     {
         if (Triggered == false && other.gameObject.tag == "Player")
         {
             Triggered = true;
-            Button.GetComponent<Animator>().SetTrigger("ButtonPress"); 
+            Door.GetComponent<DoorLock>().UnlockedCount++;
+            Door.GetComponent<DoorLock>().LockCheck();
         }
     }
+
 }
