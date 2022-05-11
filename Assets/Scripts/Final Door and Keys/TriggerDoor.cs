@@ -29,6 +29,9 @@ public class TriggerDoor : MonoBehaviour
             Triggered = true;
             Door.GetComponent<DoorLock>().UnlockedCount++;
             Door.GetComponent<DoorLock>().LockCheck();
+
+            Destroy(gameObject);
+
         }
     }
 
