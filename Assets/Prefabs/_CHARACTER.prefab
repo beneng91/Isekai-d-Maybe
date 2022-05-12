@@ -41,10 +41,10 @@ GameObject:
   - component: {fileID: 4348581066731614797}
   - component: {fileID: 4348581066731614786}
   - component: {fileID: 4348581066731614787}
-  - component: {fileID: 4348581066731614784}
   - component: {fileID: 4348581066731614785}
   - component: {fileID: 1084178868846926843}
   - component: {fileID: 7406798226557351988}
+  - component: {fileID: 4348581066731614784}
   - component: {fileID: 7406798226557351991}
   m_Layer: 8
   m_Name: _CHARACTER
@@ -120,28 +120,6 @@ MonoBehaviour:
   m_right: 100
   m_sprint: 304
   m_jump: 32
---- !u!114 &4348581066731614784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4348581066731614794}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10206e037e5c1984790a50996c3188c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerToHit:
-    serializedVersion: 2
-    m_Bits: 64
-  raycaster: {fileID: 0}
-  rayLength: 30
-  rayHit: 0
-  CrosshairDot: {fileID: 0}
-  nearAlly: 0
-  canInteract: 0
-  allyToDirect: {fileID: 0}
 --- !u!114 &4348581066731614785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4348581066731614794}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a99f98b0a7d2cdd4eb380fdf567b5fe0, type: 3}
   m_Name: 
@@ -196,6 +174,28 @@ MonoBehaviour:
   currentCheckpoint: {fileID: 0}
   activeMaterial: {fileID: 2100000, guid: f7ce0563e7f02014aa0f6b7208f19d3c, type: 2}
   inactiveMaterial: {fileID: 2100000, guid: 3006b5d8b803f5f4eaee38dd566c618d, type: 2}
+--- !u!114 &4348581066731614784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4348581066731614794}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10206e037e5c1984790a50996c3188c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerToHit:
+    serializedVersion: 2
+    m_Bits: 64
+  raycaster: {fileID: 0}
+  rayLength: 30
+  rayHit: 0
+  CrosshairDot: {fileID: 0}
+  nearAlly: 0
+  canInteract: 0
+  allyToDirect: {fileID: 0}
 --- !u!114 &7406798226557351991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4348581066731614794}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcbfe4dd18c727549bf8daf74d32b915, type: 3}
   m_Name: 
