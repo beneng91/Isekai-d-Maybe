@@ -1172,6 +1172,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 44050788588553484, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
+      propertyPath: musicOne
+      value: 
+      objectReference: {fileID: 8300000, guid: 00c3308d164395a4f893f2d93eb5e561, type: 3}
+    - target: {fileID: 4348581066731614787, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
+      propertyPath: m_jumpHeight
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4348581066731614787, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
       propertyPath: m_movementSpeed
       value: 4
@@ -1238,6 +1246,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
+--- !u!82 &1275415367 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7695690379407672839, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
+  m_PrefabInstance: {fileID: 1275415366}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1324916786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1468,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
+--- !u!114 &1643756397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643756395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea39d48d2521d948a5eb91c7ff0fc15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: 5eff07a55ffb719489445bf1b72b9014, type: 3}
+  remoteSoundEffect: 0
+  remoteSFXLocation: {fileID: 0}
+  sourceToPlay: {fileID: 1275415367}
+  volume: 0.8
+  destructible: 0
 --- !u!1 &1703613890
 GameObject:
   m_ObjectHideFlags: 0

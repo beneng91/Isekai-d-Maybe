@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8549228911028703126}
   - component: {fileID: 5854680821038676828}
   - component: {fileID: -8021649008377574154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_10M_Wall_Damaged_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: 111990be11c63eb4984c188a24adf2b4, type: 3}
+  - {fileID: 2100000, guid: eb78e64435c20e046949244791df9929, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

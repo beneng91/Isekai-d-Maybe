@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 4084896134524755754}
   - component: {fileID: 6019810564077139019}
   - component: {fileID: -2887584006591489112}
+  - component: {fileID: 2225493696975647379}
   m_Layer: 0
-  m_Name: Final Key 1
+  m_Name: SM_Key_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,3 +111,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.08330227, y: 0.01949856, z: 0.20470355}
   m_Center: {x: -0.0016166999, y: 0.00011050518, z: 0.10317732}
+--- !u!114 &2225493696975647379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2571708307191987967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea39d48d2521d948a5eb91c7ff0fc15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: ebd1062b1b8963b49ac08258e61ef2dc, type: 3}
+  remoteSoundEffect: 0
+  remoteSFXLocation: {fileID: 0}
+  sourceToPlay: {fileID: 0}
+  volume: 1
+  destructible: 0

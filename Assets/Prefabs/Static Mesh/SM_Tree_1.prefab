@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2311904679295531321}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Tree_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5948643160050489999}
   - component: {fileID: 6922055247072827397}
   - component: {fileID: 2675495714743658116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 8400984990157817461}
   - component: {fileID: 7862069046579656618}
   - component: {fileID: 3551446536666151726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leaves
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7203489337278802841}
   - component: {fileID: 4905290992531398483}
   - component: {fileID: 8950438364871292383}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Castle_Pillar_Broken_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
