@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jump Trial.unity
     guid: e672772a8f2f1f04f856035fd2786f19
+  - enabled: 1
+    path: Assets/Scenes/Castle 2.unity
+    guid: 2e74044290976534aa9d5bbc169714d9
   m_configObjects: {}

@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 51601331}
   - component: {fileID: 51601330}
   - component: {fileID: 51601329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jump Platform 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 208180944}
   - component: {fileID: 208180943}
   - component: {fileID: 208180942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jump Platform 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 327996609}
   - component: {fileID: 327996608}
   - component: {fileID: 327996607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jump Platform 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 798452059}
   - component: {fileID: 798452058}
   - component: {fileID: 798452057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jump Platform 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -860,7 +860,7 @@ GameObject:
   - component: {fileID: 913210606}
   - component: {fileID: 913210605}
   - component: {fileID: 913210604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,7 +956,7 @@ GameObject:
   - component: {fileID: 955495822}
   - component: {fileID: 955495821}
   - component: {fileID: 955495820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Starting Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,6 +1069,75 @@ Transform:
   m_Father: {fileID: 393373883}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &975003174
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1679082218252564558, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: ButtonToEnable
+      value: 
+      objectReference: {fileID: 1643756395}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.865
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061938210838535065, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113477916210398336, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: destructible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113477916210398336, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: sourceToPlay
+      value: 
+      objectReference: {fileID: 1275415367}
+    - target: {fileID: 6875734408588263715, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
+      propertyPath: m_Name
+      value: Key 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 988f451a60d2dd84bb17bca149f11311, type: 3}
 --- !u!1 &1012207322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1346,10 @@ PrefabInstance:
       propertyPath: m_movementSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4348581066731614787, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
+      propertyPath: m_groundMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4348581066731614794, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
       propertyPath: m_Name
       value: _CHARACTER
@@ -1333,6 +1406,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4348581066872326313, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4348581067295638397, guid: cb6070a36931b6346842fa30dd21e5e0, type: 3}
       propertyPath: m_sensivity
       value: 600
@@ -1358,7 +1435,7 @@ GameObject:
   - component: {fileID: 1324916787}
   - component: {fileID: 1324916792}
   - component: {fileID: 1324916791}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jump Platform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be8b6e6821cb8c48bb9c8c2e28ca667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 2
 --- !u!114 &1643756397
 MonoBehaviour:
   m_ObjectHideFlags: 0
