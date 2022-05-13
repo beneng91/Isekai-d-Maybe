@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6019810564077139019}
   - component: {fileID: -2887584006591489112}
   - component: {fileID: 2225493696975647379}
+  - component: {fileID: 7259433638548540677}
   m_Layer: 0
   m_Name: SM_Key_2
   m_TagString: Untagged
@@ -129,3 +130,22 @@ MonoBehaviour:
   sourceToPlay: {fileID: 0}
   volume: 1
   destructible: 0
+--- !u!95 &7259433638548540677
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2571708307191987967}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
