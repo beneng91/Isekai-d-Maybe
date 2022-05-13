@@ -28,17 +28,11 @@ public class TextPopup : MonoBehaviour
     {
         keyWasPressed = false;
         keyWasPressed = Input.GetKeyDown(keyToAdvanceText);
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.tag == "Player" && fieldIsActive == false)
-        {
-            textField.gameObject.SetActive(true);
-            fieldIsActive = true;
-        }
-        
+
         if (fieldIsActive == true && keyWasPressed)
         {
+            Debug.Log("TN = " + textNumber);
+            
             if (textNumber >= popupTexts.Length)
             {
                 ResetTextField();
@@ -47,9 +41,20 @@ public class TextPopup : MonoBehaviour
             {
                 textField.text = popupTexts[textNumber];
                 textNumber++;
+                //keyWasPressed = false;
             }
-        }         
+        }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player" && fieldIsActive == false)
+        {
+            textField.gameObject.SetActive(true);
+            fieldIsActive = true;
+        }
+    }
+
 
     private void OnTriggerExit(Collider other)
     {
@@ -61,9 +66,10 @@ public class TextPopup : MonoBehaviour
 
     private void ResetTextField()
     {
+        Debug.Log("Reset Text Field called");
+        textNumber = 0;
         textField.text = initialMessage;
         textField.gameObject.SetActive(false);
         fieldIsActive = false;
-        textNumber = 0;
     }
 }
